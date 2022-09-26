@@ -1,0 +1,10 @@
+#btn1{
+    background-color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+#btn1:hover{
+    background-color: black;
+    color: white;
+}

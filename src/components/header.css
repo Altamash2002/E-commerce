@@ -1,0 +1,36 @@
+#navbar {
+    border-bottom: 1px solid grey;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+#title img{
+    width: 90px;
+}
+.link {
+    color: #db2b2b;
+    font-weight: bold;
+}
+    
+    /* Specific styles for active links */
+.link-active {
+    border-bottom: 3px solid rgb(255, 165, 0);
+    /* text-decoration: underline; */
+    color: #ff0000;
+    font-weight: bold;
+}
+  
+.nav-link:hover{
+    color: #ff0000;
+    font-weight: bold;
+}
+.nav-link:focus{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.nav-item{
+    width: fit-content;
+}
+#cart{
+    font-size: 40px;
+}

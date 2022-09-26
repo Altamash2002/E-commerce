@@ -1,0 +1,23 @@
+.home-container{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* banner arrows */
+.arrow{
+    position: absolute;
+    font-weight: 900;
+    font-size: 60px;
+    top: 180px;
+    color: black;
+    /* border: 1px solid black; */
+    padding: 0px 18px;
+    cursor: pointer;
+}
+#right{
+    right: 10px;
+}
+#left{
+    left: 10px;
+}

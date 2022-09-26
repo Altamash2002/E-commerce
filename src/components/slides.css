@@ -1,0 +1,30 @@
+/* banner and slides styling */
+
+.banner{
+    position: relative;
+    background-color: orange;
+    transition: all 1.5s ease;
+}
+#slides{
+    height: 450px;
+}
+.banner-div1 p{
+    font-family: cursive;
+}
+#banner-img-1{
+    width: 400px;
+    max-height: 400px;
+}
+
+
+@media screen and (max-width: 576px) {
+    #slides{
+        height: 700px;
+    }
+    #left-arrow{
+        left: 0px !important;
+    }
+    #right-arrow{
+        right: 0px !important;
+    }
+}

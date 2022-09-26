@@ -1,0 +1,18 @@
+#news-container{
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+#news-submit{
+    padding: 20px;
+    background-color: rgb(31, 55, 85);
+    border: none;
+    border-radius: 5px;
+}
+#news-submit i{
+    font-size: 20px;
+    color: white;
+}

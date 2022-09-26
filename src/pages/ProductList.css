@@ -1,0 +1,22 @@
+#filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+#pro-heading{
+    margin: 20px;
+}
+.filter{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.filter-text{
+    margin-right: 20px;
+}
+.select-container{
+    padding: 10px;
+    margin-right: 20px;
+}
+option{
+    margin: 10px;
+}

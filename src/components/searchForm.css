@@ -1,0 +1,29 @@
+#search{
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+@media screen and (max-width: 500px) {
+    #search , #search input{
+        width: 100%;
+    }
+}
+#search input{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#search button i{
+    color: white;
+    font-weight: bold;
+}
+#search button{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    
+}

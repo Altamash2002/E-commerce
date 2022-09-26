@@ -1,0 +1,119 @@
+#cart-container{
+    padding: 20px;
+}
+#cart-title{
+    font-weight: 300;
+    text-align: center;
+}
+ 
+/* cart top styling.. */
+#cart-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.top-btn{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#top-btn1{
+    background-color: white;
+}
+#top-btn2{
+    border: none;
+    color: white;
+    background-color: black;
+}
+.top-text{
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+/* cart bottom styling.. */
+#cart-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#btm-info{
+    flex: 3;
+}
+/* cart product details */
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.product-details{
+    flex: 2;
+    display: flex;
+}
+.prize-deatils{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.p-detail-img{
+    width: 300px;
+}
+.p-img-details{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.product-color{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.product-amount-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.product-amount,.p-add,.p-remove{
+    font-size: 30px;
+    margin: 5px;
+}
+.product-prize{
+    font-size: 40px;
+    font-weight: 200;
+}
+.p-remove , .p-add{
+    cursor: pointer;
+}
+/* SUMMARY STYLING */
+#btm-summary{
+    flex: 1;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: max-content;
+}
+#summary-title{
+    font-weight: 200;
+    text-align: center;
+}
+.summary-item, #summary-item-total{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#summary-item-total{
+    font-weight: bold;
+    font-size: 25px;
+}
+#summary-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
