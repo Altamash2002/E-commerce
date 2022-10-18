@@ -2,8 +2,16 @@ import "./header.css";
 import { Link, NavLink } from "react-router-dom";
 import SearchForm from "./searchForm";
 import Logo from "./logo";
+// import { AccessAlarm, ShoppingCartOutlined, ThreeDRotation } from '@mui/icons-material';
+import { Badge } from "@mui/material";
+import { ShoppingCartOutlined } from "@mui/icons-material";
+import { useSelector } from "react-redux";
+
 
 const Header = () => {
+
+    const quantity = useSelector(state => state.cart.quantity)
+
 
     return (
         <nav id="navbar" className="navbar navbar-expand-lg py-0 px-5">
@@ -22,16 +30,16 @@ const Header = () => {
                         </li>
                         <li className="nav-item mx-4">
                             <NavLink className={({ isActive }) => (isActive ? "link-active" : "link") + " nav-link"} to="/register">Register</NavLink>
-                        </li>  
-                        <li className="nav-item mx-4">
-                            <NavLink className={({ isActive }) => (isActive ? "link-active" : "link") + " nav-link"} to="/login">Login</NavLink>
                         </li> 
                         <li className="nav-item mx-4">
-                            <NavLink className={({ isActive }) => (isActive ? "link-active" : "link") + " nav-link"} to="/product-list">Products</NavLink>
-                        </li>                              
+                            <NavLink className={({ isActive }) => (isActive ? "link-active" : "link") + " nav-link"} to="/login">Login</NavLink>
+                        </li>                             
                     </ul>
-                    
-                    <Link to="/cart" id="cart"><i className="bi bi-cart4 mx-5" /></Link>
+                    <Link to="/cart">
+                        <Badge badgeContent={quantity} color="primary" className="mx-5">
+                            <ShoppingCartOutlined />
+                        </Badge>
+                    </Link>
                     <SearchForm />
                 </div>
             </div>

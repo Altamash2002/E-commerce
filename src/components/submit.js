@@ -2,7 +2,7 @@ import "./submit.css"
 
 const Submit = (props) => {
     return (
-            <input type="submit" id="submit-btn" value={props.value} />
+            <input type="submit" disabled={props.disabled} id="submit-btn" value={props.value} />
     );
 };
 

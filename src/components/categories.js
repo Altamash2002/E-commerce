@@ -1,5 +1,7 @@
 import "./categories.css";
+import { Link } from "react-router-dom";
 import ShopBtn from "./shopBtn";
+// import { categoriesImg } from "../data";
 
 const Categories = (props) => {
   return (
@@ -8,7 +10,7 @@ const Categories = (props) => {
       <div id="info-container">
         <div className="categories-title-div text-center">
             <h2 id="categorie-title" className="my-2 align-self-center">{props.item.title}</h2>
-            <ShopBtn/>
+            <Link to={"/products/" + props.item.cat}><ShopBtn/></Link>
         </div>
       </div>
     </div>

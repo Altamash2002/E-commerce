@@ -6,11 +6,23 @@
     text-align: center;
 }
  
+
+/* cart remove button styling start */
+#remove-cart{
+    font-size: 30px;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+#remove-cart i{
+    cursor: pointer;
+}
+/* cart remove button styling end*/
 /* cart top styling.. */
 #cart-top{
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     padding: 20px;
 }
 .top-btn{
@@ -25,11 +37,8 @@
     border: none;
     color: white;
     background-color: black;
-}
-.top-text{
-    text-decoration: underline;
-    cursor: pointer;
-    margin: 0px 10px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 /* cart bottom styling.. */
@@ -37,44 +46,74 @@
     display: flex;
     justify-content: space-between;
 }
-#btm-info{
+/* #btm-info{
     flex: 3;
-}
+} */
 /* cart product details */
-.product{
-    display: flex;
-    justify-content: space-between;
+
+@media screen and (min-width: 768px){
+    .product-details{
+        flex: 2;
+        display: flex;
+    }
+    .prize-deatils{
+        /* text-align: center; */
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
-.product-details{
-    flex: 2;
-    display: flex;
+@media screen and (max-width: 500px){
+    #cart-top{
+        padding: 0 !important;
+        margin: 0;
+    }
 }
-.prize-deatils{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.p-detail-img{
-    width: 300px;
+
+.p-img{
+    width: 250px;
 }
 .p-img-details{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
+/* product color styling */
 .product-color{
-    background-color: black;
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
 }
+#black{
+    background-color: black;
+}
+#blue{
+    background-color: blue;
+}
+#gray{
+    background-color: gray;
+}
+#red{
+    background-color: red;
+}
+#white{
+    background-color: white;
+}
+#yellow{
+    background-color: yellow;
+}
+
+
 .product-amount-container{
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    /* align-items: center; */
+    /* margin-bottom: 20px; */
+    justify-content: center;
 }
 .product-amount,.p-add,.p-remove{
     font-size: 30px;
@@ -89,7 +128,6 @@
 }
 /* SUMMARY STYLING */
 #btm-summary{
-    flex: 1;
     border: 0.5px solid lightgray;
     border-radius: 10px;
     padding: 20px;

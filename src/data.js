@@ -29,35 +29,35 @@ import homeBanner2 from "./images/img4.png";
 import homeBanner3 from "./images/img5.png";
 
 export const featureImages = [
-    { id : "1" , url: featured1 },
-    { id : "2" , url: featured2 },
-    { id : "3" , url: featured3 },
-    { id : "4" , url: featured7 },
-    { id : "5" , url: featured4 },
-    { id : "6" , url: featured5 },
-    { id : "7" , url: featured6 },        
-    { id : "8" , url: featured8 },
-    { id : "9" , url: featured9 },
-    { id : "10" , url: featured10},
-    { id : "11" , url: featured11},
-    { id : "12" , url: featured12},
-    { id : "13" , url: featured13},
-    { id : "14" , url: featured14},
-    { id : "15" , url: featured15},
-    { id : "16" , url: featured16}
+    { _id : "1" , img: featured1 },
+    { _id : "2" , img: featured2 },
+    { _id : "3" , img: featured3 },
+    { _id : "4" , img: featured7 },
+    { _id : "5" , img: featured4 },
+    { _id : "6" , img: featured5 },
+    { _id : "7" , img: featured6 },        
+    { _id : "8" , img: featured8 },
+    { _id : "9" , img: featured9 },
+    { _id : "10" , img: featured10},
+    { _id : "11" , img: featured11},
+    { _id : "12" , img: featured12},
+    { _id : "13" , img: featured13},
+    { _id : "14" , img: featured14},
+    { _id : "15" , img: featured15},
+    { _id : "16" , img: featured16}
 ];
 
 
 export const categoriesImg = [
-    {url: categorie1 , title : "NEW DRESSES"},
-    {url: categorie2 , title : "THE PERFECT JEANS"},
-    {url: categorie3 , title : "NEW JACKETS"},
-    {url: categorie4 , title : "Women's Clothes"}
+    {_id : "1", url: categorie1 , title : "NEW DRESSES" , cat : "new"},
+    {_id : "2", url: categorie2 , title : "THE PERFECT JEANS" , cat : "jeans"},
+    {_id : "3", url: categorie3 , title : "NEW JACKETS" , cat : "jackets-shirts"},
+    {_id : "4", url: categorie4 , title : "Women's Clothes" , cat : "womens"}
 ];
 
 export const sliders = [
-    {url: homeBanner1 , title : "Clothing Items" , discount : "30%" },
-    {url: homeBanner2 , title : "Ladies Special" , discount : "30%"},
-    {url: homeBanner3 , title : "Mens Clothes" , discount : "25%"}
+    {_id : "1", url: homeBanner1 , title : "Clothing Items" , discount : "30%" },
+    {_id : "2", url: homeBanner2 , title : "Ladies Special" , discount : "30%"},
+    {_id : "3", url: homeBanner3 , title : "Mens Clothes" , discount : "25%"}
 ];
 

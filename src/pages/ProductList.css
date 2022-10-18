@@ -1,12 +1,12 @@
-#filter-container{
+/* #filter-container{
     display: flex;
     justify-content: space-between;
-}
+} */
 #pro-heading{
     margin: 20px;
 }
 .filter{
-    margin: 20px;
+    padding : 20px;
     font-size: 20px;
     font-weight: 600;
 }

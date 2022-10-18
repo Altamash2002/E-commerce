@@ -10,7 +10,7 @@ const CategoriesContainer = () => {
         <div className="row justify-content-center">
             {
                 categoriesImg.map(item => (
-                        <Categories item = {item} />
+                        <Categories item={item} key={item.id} />
                     )
                 )
             }
